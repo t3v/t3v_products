@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file product-name="t3v_products" source-language="en" datatype="plaintext" original="messages">
+    <header />
+
+    <body>
+      <!-- === Models === -->
+
+      <!-- Product -->
+
+      <trans-unit id="tx_t3vproducts_domain_model_product">
+        <source>Product</source>
+      </trans-unit>
+
+      <trans-unit id="tx_t3vproducts_domain_model_product.name">
+        <source>Name</source>
+      </trans-unit>
+
+      <trans-unit id="tx_t3vproducts_domain_model_product.abstract">
+        <source>Abstract</source>
+      </trans-unit>
+
+      <trans-unit id="tx_t3vproducts_domain_model_product.thumbnails">
+        <source>Thumbnails</source>
+      </trans-unit>
+
+      <trans-unit id="tx_t3vproducts_domain_model_product.images">
+        <source>Images</source>
+      </trans-unit>
+
+      <trans-unit id="tx_t3vproducts_domain_model_product.label">
+        <source>Label</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

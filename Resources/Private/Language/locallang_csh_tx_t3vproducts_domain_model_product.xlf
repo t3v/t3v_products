@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file product-name="t3v_products" source-language="en" datatype="plaintext" original="messages">
+    <header />
+
+    <body>
+      <trans-unit id="name.description">
+        <source>Name</source>
+      </trans-unit>
+
+      <trans-unit id="abstract.description">
+        <source>Abstract</source>
+      </trans-unit>
+
+      <trans-unit id="thumbnails.description">
+        <source>Thumbnails</source>
+      </trans-unit>
+
+      <trans-unit id="images.description">
+        <source>Images</source>
+      </trans-unit>
+
+      <trans-unit id="label.description">
+        <source>Label</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

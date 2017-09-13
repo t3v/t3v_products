@@ -8,6 +8,19 @@ plugin {
       updateReferenceIndex = 1
 
       # storagePid = {$plugin.tx_t3vproducts.persistence.storagePid}
+
+      classes {
+        T3v\T3vProducts\Domain\Model\Product {
+          mapping {
+            tableName = tx_t3vproducts_domain_model_product
+
+            # columns {
+            #   foo.mapOnProperty = foo
+            #   bar.mapOnProperty = bar
+            # }
+          }
+        }
+      }
     }
 
     view {
