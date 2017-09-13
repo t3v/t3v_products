@@ -1,0 +1,45 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+  <v:tag name="div" class="t3v-products-current-product--{product.uid} t3v-products-current-product" hideIfEmpty="true">
+    <v:tag name="div" class="t3v-products-current-product__main" hideIfEmpty="true">
+      <f:link.page pageUid="{product.pid}" class="t3v-products-current-product__thumbnail" title="{product.name}">
+        {product.name}
+      </f:link.page>
+
+      <v:tag name="div" class="t3v-products-current-product__content" hideIfEmpty="true">
+        <v:tag name="div" class="t3v-products-current-product__meta" hideIfEmpty="true">
+          <v:tag name="h3" class="t3v-products-current-product__name" hideIfEmpty="true">
+            <f:link.page pageUid="{product.pid}" title="{product.name}">
+              {product.name}
+            </f:link.page>
+          </v:tag>
+        </v:tag>
+
+        <f:if condition="{product.abstract}">
+          <div class="t3v-products-current-product__abstract">
+            <f:format.crop maxCharacters="200" respectWordBoundaries="1">
+              <f:format.html>{product.abstract}</f:format.html>
+            </f:format.crop>
+          </div>
+        </f:if>
+
+        <v:tag name="div" class="t3v-products-current-product__more" hideIfEmpty="true">
+          <f:if condition="{product.label}">
+            <f:then>
+              <f:link.page pageUid="{product.pid}" class="link--more link" title="{product.label}">
+                {product.label}
+              </f:link.page>
+            </f:then>
+
+            <f:else>
+              <f:link.page pageUid="{product.pid}"
+                           class="link--more link"
+                           title="{f:translate(key: 'contentElements.currentProductsContentElement.currentProductsList.item.more.label', default: 'More')}">
+                {f:translate(key: 'contentElements.currentProductsContentElement.currentProductsList.item.more.label', default: 'More')}
+              </f:link.page>
+            </f:else>
+          </f:if>
+        </v:tag>
+      </v:tag>
+    </v:tag>
+  </v:tag>
+</html>

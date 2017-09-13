@@ -12,6 +12,15 @@
         <source>Product</source>
         <target>Produkt</target>
       </trans-unit>
+
+      <!-- === Content Elements === -->
+
+      <!-- Curent Products Content Element -->
+
+      <trans-unit id="contentElements.currentProductsContentElement.overviewNavigation.item.more.label">
+        <source>More</source>
+        <target>Mehr</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

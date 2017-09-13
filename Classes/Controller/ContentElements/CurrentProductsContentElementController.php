@@ -1,6 +1,8 @@
 <?php
 namespace T3v\T3vProducts\Controller\ContentElements;
 
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
 use T3v\T3vContent\Controller\ContentElements\ContentElementController;
 
 use \T3v\T3vProducts\Domain\Repository\ProductRepository;
@@ -26,8 +28,13 @@ class CurrentProductsContentElementController extends ContentElementController {
    */
   public function indexAction() {
     $settings = $this->settings;
-    $uids     = $settings['products'];
-    $products = $this->productRepository->findByUids($uids);
+
+    $products     = [];
+    $productsUids = GeneralUtility::intExplode(',', $settings['products'], true);
+
+    foreach($productsUids as $uid) {
+      $products[] = $this->productRepository->findByUid($uid);
+    }
 
     $this->view->assign('settings', $settings);
     $this->view->assign('products', $products);

@@ -11,6 +11,14 @@
       <trans-unit id="domain.model.product">
         <source>Product</source>
       </trans-unit>
+
+      <!-- === Content Elements === -->
+
+      <!-- Curent Products Content Element -->
+
+      <trans-unit id="contentElements.currentProductsContentElement.overviewNavigation.item.more.label">
+        <source>More</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

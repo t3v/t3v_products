@@ -1,0 +1,15 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+  <v:asset.style name="t3v-products-current-products-{data.uid}-css" movable="0" standalone="1" fluid="1">
+    <f:for each="{products}" as="product">
+      <f:if condition="{product.thumbnails}">
+        {product.thumbnails -> v:iterator.first() -> v:variable.set(name: '1stThumbnail')}
+
+        <f:if condition="{1stThumbnail}">
+          .t3v-products-current-product--{product.uid} .t3v-products-current-product__thumbnail { background-image: url('<v:uri.image src="{1stThumbnail.uid}" height="116c" treatIdAsReference="1" />'); }
+
+          @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.3020833333333333), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) { .t3v-products-current-product--{product.uid} .t3v-products-current-product__thumbnail { background-image: url('<v:uri.image src="{1stThumbnail.uid}" height="232c" treatIdAsReference="1" />'); } }
+        </f:if>
+      </f:if>
+    </f:for>
+  </v:asset.style>
+</html>
