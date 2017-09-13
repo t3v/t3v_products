@@ -6,6 +6,26 @@ call_user_func(function($namespace, $extkey) {
 
   // === Content Elements ===
 
+  // --- Products Content Element ---
+
+  \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+    $extensionSignature,
+
+    // A unique name of the content element in upper camel case
+    'Products',
+
+    // An array holding the controller-action-combinations that are accessible
+    [
+      // The first controller and its first action will be the default
+      'ContentElements\ProductsContentElement' => 'index'
+    ],
+
+    // An array of non-cachable controller-action-combinations (they must already be enabled)
+    [
+      // 'ContentElements\ProductsContentElement' => 'index'
+    ]
+  );
+
   // --- Current Products Content Element ---
 
   \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(

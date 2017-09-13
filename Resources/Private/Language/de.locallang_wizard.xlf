@@ -11,6 +11,18 @@
         <target>Content Elements</target>
       </trans-unit>
 
+      <!-- Products Content Element -->
+
+      <trans-unit id="contentElements.productsContentElement.title">
+        <source>Products</source>
+        <target>Produkte</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.description">
+        <source>Products Content Element</source>
+        <target>Produkte Content Element</target>
+      </trans-unit>
+
       <!-- Current Products Content Element -->
 
       <trans-unit id="contentElements.currentProductsContentElement.title">

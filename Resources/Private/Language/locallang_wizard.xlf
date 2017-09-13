@@ -10,6 +10,16 @@
         <source>Content Elements</source>
       </trans-unit>
 
+      <!-- Products Content Element -->
+
+      <trans-unit id="contentElements.productsContentElement.title">
+        <source>Products</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.description">
+        <source>Products Content Element</source>
+      </trans-unit>
+
       <!-- Current Products Content Element -->
 
       <trans-unit id="contentElements.currentProductsContentElement.title">

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+    <langChildren>1</langChildren>
+  </meta>
+
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms type="array">
+          <sheetTitle>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.sheets.general.title</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <settings.products>
+            <TCEforms type="array">
+              <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.products.label</label>
+              <config type="array">
+                <type>select</type>
+                <internal_type>db</internal_type>
+                <foreign_table>tx_t3vproducts_domain_model_product</foreign_table>
+                <foreign_table_where>AND 1=1 ORDER BY name ASC</foreign_table_where>
+                <minitems>1</minitems>
+                <maxitems>100</maxitems>
+              </config>
+            </TCEforms>
+          </settings.products>
+        </el>
+      </ROOT>
+    </sDEF>
+
+    <appearance>
+     <ROOT>
+        <TCEforms type="array">
+          <sheetTitle>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.sheets.appearance.title</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <settings.layout>
+            <TCEforms type="array">
+              <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.label</label>
+              <config type="array">
+                <type>select</type>
+                <size>1</size>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.default.label</numIndex>
+                    <numIndex index="1">default</numIndex>
+                  </numIndex>
+
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.3Columns.label</numIndex>
+                    <numIndex index="1">3-columns</numIndex>
+                  </numIndex>
+
+                  <numIndex index="2" type="array">
+                    <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.4Columns.label</numIndex>
+                    <numIndex index="1">4-columns</numIndex>
+                  </numIndex>
+                </items>
+              </config>
+            </TCEforms>
+          </settings.layout>
+        </el>
+     </ROOT>
+    </appearance>
+  </sheets>
+</T3DataStructure>

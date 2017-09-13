@@ -17,6 +17,16 @@ call_user_func(function($namespace, $extkey) {
     \TYPO3\CMS\Core\Imaging\IconRegistry::class
   );
 
+  // --- Products Content Element ---
+
+  $iconIdentifier = 'products_content_element';
+
+  $iconRegistry->registerIcon(
+    "{$extkey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "EXT:{$extkey}/Resources/Public/Icons/ContentElements/ProductsContentElement.svg"]
+  );
+
   // --- Current Products Content Element ---
 
   $iconIdentifier = 'current_products_content_element';

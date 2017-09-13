@@ -13,13 +13,28 @@
         <target>Produkt</target>
       </trans-unit>
 
+      <trans-unit id="contentElements.productsContentElement.product.more.label">
+        <source>More</source>
+        <target>Mehr</target>
+      </trans-unit>
+
       <!-- === Content Elements === -->
 
       <!-- Curent Products Content Element -->
 
-      <trans-unit id="contentElements.currentProductsContentElement.overviewNavigation.item.more.label">
+      <trans-unit id="contentElements.currentProductsContentElement.currentProduct.more.label">
         <source>More</source>
         <target>Mehr</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.news.currentProductsContentElement.toAllProducts.label">
+        <source>To all products</source>
+        <target>Zu allen Produkten</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.noProductsFound.label">
+        <source>No products found.</source>
+        <target>Keine Produkte gefunden.</target>
       </trans-unit>
     </body>
   </file>

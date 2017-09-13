@@ -4,4 +4,16 @@
   <f:section name="Main">
     <f:render partial="ContentElements/CurrentProductsContentElement/CurrentProductsList" arguments="{products: products, settings: settings}" />
   </f:section>
+
+  <f:section name="Footer">
+    <f:alias map="{pageUid: '{f:cObject(typoscriptObjectPath: \'lib.t3v.products.config.pages.products.uid\')}'}">
+      <f:if condition="{pageUid}">
+        <f:link.page pageUid="{pageUid}"
+                     class="link--more link"
+                     title="{f:translate(key: 'contentElements.news.currentProductsContentElement.toAllProducts.label', default: 'To all products')}">
+          {f:translate(key: 'contentElements.news.currentProductsContentElement.toAllProducts.label', default: 'To all products')}
+        </f:link.page>
+      </f:if>
+    </f:alias>
+  </f:section>
 </html>

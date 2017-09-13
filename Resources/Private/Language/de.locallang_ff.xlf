@@ -6,6 +6,33 @@
     <body>
       <!-- === Content Elements === -->
 
+      <!-- Products Content Element -->
+
+      <trans-unit id="contentElements.productsContentElement.settings.products.label">
+        <source>Products</source>
+        <target>Produkte</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.layout.label">
+        <source>Layout</source>
+        <target>Layout</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.layout.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.layout.3Columns.label">
+        <source>3 Columns</source>
+        <target>3 Spalten</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.layout.4Columns.label">
+        <source>4 Columns</source>
+        <target>4 Spalten</target>
+      </trans-unit>
+
       <!-- Current Products Content Element -->
 
       <trans-unit id="contentElements.currentProductsContentElement.settings.products.label">
