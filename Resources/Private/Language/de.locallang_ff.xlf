@@ -6,6 +6,23 @@
     <body>
       <!-- === Content Elements === -->
 
+      <!-- Current Products Content Element -->
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.products.label">
+        <source>Products</source>
+        <target>Produkte</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.label">
+        <source>Layout</source>
+        <target>Layout</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
       <!-- Shared -->
 
       <trans-unit id="contentElements.shared.sheets.general.title">

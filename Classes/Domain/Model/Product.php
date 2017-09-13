@@ -11,7 +11,7 @@ use T3v\T3vProducts\Domain\Model\AbstractModel;
  *
  * @package T3v\T3vProducts\Domain\Model
  */
-class NewsArticle extends AbstractModel {
+class Product extends AbstractModel {
   /**
    * The product's name.
    *

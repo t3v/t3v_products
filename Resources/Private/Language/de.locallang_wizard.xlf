@@ -4,6 +4,24 @@
     <header />
 
     <body>
+      <!-- === Content Elements === -->
+
+      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
+        <source>Content Elements</source>
+        <target>Content Elements</target>
+      </trans-unit>
+
+      <!-- Current Products Content Element -->
+
+      <trans-unit id="contentElements.currentProductsContentElement.title">
+        <source>Current Products</source>
+        <target>Aktuelle Produkte</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.description">
+        <source>Current Products Content Element</source>
+        <target>Aktuelle Produkte Content Element</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
