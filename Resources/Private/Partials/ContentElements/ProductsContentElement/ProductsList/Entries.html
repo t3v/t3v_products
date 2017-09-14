@@ -1,7 +1,17 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <v:tag name="ol" class="t3v-products-products-list list--{settings.layout} list" hideIfEmpty="true">
-    <f:for each="{products->v:iterator.sort(sortBy: 'name', order: 'ASC', sortFlags: 'SORT_NATURAL,SORT_FLAG_CASE')}" as="product">
-      <f:render partial="ContentElements/ProductsContentElement/ProductsList/Entry" arguments="{product: product}" />
-    </f:for>
+    <f:if condition="{settings.sortBy} != 'none'">
+      <f:then>
+        <f:for each="{products->v:iterator.sort(sortBy: settings.sortBy, order: 'ASC', sortFlags: 'SORT_NATURAL,SORT_FLAG_CASE')}" as="product">
+          <f:render partial="ContentElements/ProductsContentElement/ProductsList/Entry" arguments="{product: product}" />
+        </f:for>
+      </f:then>
+
+      <f:else>
+        <f:for each="{products}" as="product">
+          <f:render partial="ContentElements/ProductsContentElement/ProductsList/Entry" arguments="{product: product}" />
+        </f:for>
+      </f:else>
+    </f:if>
   </v:tag>
 </html>

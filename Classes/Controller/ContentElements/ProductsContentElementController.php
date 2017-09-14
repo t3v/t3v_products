@@ -28,8 +28,13 @@ class ProductsContentElementController extends ContentElementController {
    */
   public function indexAction() {
     $settings = $this->settings;
-    $uids     = $settings['products'];
-    $products = $this->productRepository->findByUids($uids);
+
+    $products     = [];
+    $productsUids = GeneralUtility::intExplode(',', $settings['products'], true);
+
+    foreach($productsUids as $uid) {
+      $products[] = $this->productRepository->findByUid($uid);
+    }
 
     $this->view->assign('settings', $settings);
     $this->view->assign('products', $products);

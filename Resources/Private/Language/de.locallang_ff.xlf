@@ -23,6 +23,11 @@
         <target>Standard</target>
       </trans-unit>
 
+      <trans-unit id="contentElements.productsContentElement.settings.layout.2Columns.label">
+        <source>2 Columns</source>
+        <target>2 Spalten</target>
+      </trans-unit>
+
       <trans-unit id="contentElements.productsContentElement.settings.layout.3Columns.label">
         <source>3 Columns</source>
         <target>3 Spalten</target>
@@ -31,6 +36,36 @@
       <trans-unit id="contentElements.productsContentElement.settings.layout.4Columns.label">
         <source>4 Columns</source>
         <target>4 Spalten</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.sortBy.label">
+        <source>Sort by</source>
+        <target>Sortierung nach</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.sortBy.none.label">
+        <source>None</source>
+        <target>Keine</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.sortBy.name.label">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.order.label">
+        <source>Order</source>
+        <target>Reihenfolge</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.order.ascendingOrder.label">
+        <source>Ascending Order</source>
+        <target>Aufsteigende Reihenfolge</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.order.descendingOrder.label">
+        <source>Descending Order</source>
+        <target>Absteigende Reihenfolge</target>
       </trans-unit>
 
       <!-- Current Products Content Element -->

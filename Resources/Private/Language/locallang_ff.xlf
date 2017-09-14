@@ -20,12 +20,40 @@
         <source>Default</source>
       </trans-unit>
 
+      <trans-unit id="contentElements.productsContentElement.settings.layout.2Columns.label">
+        <source>2 Columns</source>
+      </trans-unit>
+
       <trans-unit id="contentElements.productsContentElement.settings.layout.3Columns.label">
         <source>3 Columns</source>
       </trans-unit>
 
       <trans-unit id="contentElements.productsContentElement.settings.layout.4Columns.label">
         <source>4 Columns</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.sortBy.label">
+        <source>Sort by</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.sortBy.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.sortBy.name.label">
+        <source>Name</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.order.label">
+        <source>Order</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.order.ascendingOrder.label">
+        <source>Ascending Order</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.order.descendingOrder.label">
+        <source>Descending Order</source>
       </trans-unit>
 
       <!-- Current Products Content Element -->
