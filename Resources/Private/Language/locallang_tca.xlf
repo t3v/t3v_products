@@ -6,7 +6,7 @@
     <body>
       <!-- === Models === -->
 
-      <!-- Product -->
+      <!-- Product Model -->
 
       <trans-unit id="tx_t3vproducts_domain_model_product">
         <source>Product</source>

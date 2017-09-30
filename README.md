@@ -19,6 +19,11 @@ Installation
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for T3v Products
 
+Models
+------
+
+* Product
+
 Content Elements
 ----------------
 
@@ -78,7 +83,7 @@ T3v Products is released under the [MIT License (MIT)], see [LICENSE].
 [Barcode free icon]: https://www.flaticon.com/free-icon/barcode_138226 "Barcode free icon"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
-[Flaticon]: http://www.flaticon.com "Flaticon"
+[Flaticon]: https://www.flaticon.com "Flaticon"
 [Functional testing TYPO3]: https://wiki.typo3.org/Functional_testing "Functional testing TYPO3"
 [here]: https://github.com/t3v/t3v_products/issues "GitHub Issue Tracker"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_products/master/LICENSE "License"
