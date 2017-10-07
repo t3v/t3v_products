@@ -12,5 +12,5 @@ t3v {
 
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Extensions/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./Vendor/constants.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./Library/constants.ts">
