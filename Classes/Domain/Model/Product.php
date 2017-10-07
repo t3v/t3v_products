@@ -170,7 +170,7 @@ class Product extends AbstractModel {
    * @return void
    */
   public function removeAllImages() {
-    $this->thumbnails = new ObjectStorage();
+    $this->images = new ObjectStorage();
   }
 
   /**
