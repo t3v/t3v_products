@@ -6,6 +6,28 @@
     <body>
       <!-- === Content Elements === -->
 
+      <!-- Current Products Content Element -->
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.products.label">
+        <source>Products</source>
+        <target>Produkte</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.label">
+        <source>Layout</source>
+        <target>Layout</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
       <!-- Products Content Element -->
 
       <trans-unit id="contentElements.productsContentElement.settings.products.label">
@@ -38,6 +60,11 @@
         <target>4 Spalten</target>
       </trans-unit>
 
+      <trans-unit id="contentElements.productsContentElement.settings.layout.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
       <trans-unit id="contentElements.productsContentElement.settings.sortBy.label">
         <source>Sort by</source>
         <target>Sortierung nach</target>
@@ -66,23 +93,6 @@
       <trans-unit id="contentElements.productsContentElement.settings.order.descendingOrder.label">
         <source>Descending Order</source>
         <target>Absteigende Reihenfolge</target>
-      </trans-unit>
-
-      <!-- Current Products Content Element -->
-
-      <trans-unit id="contentElements.currentProductsContentElement.settings.products.label">
-        <source>Products</source>
-        <target>Produkte</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.label">
-        <source>Layout</source>
-        <target>Layout</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.default.label">
-        <source>Default</source>
-        <target>Standard</target>
       </trans-unit>
 
       <!-- Shared -->

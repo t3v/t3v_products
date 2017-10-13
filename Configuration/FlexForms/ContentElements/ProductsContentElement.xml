@@ -65,6 +65,11 @@
                     <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.4Columns.label</numIndex>
                     <numIndex index="1">4-columns</numIndex>
                   </numIndex>
+
+                  <numIndex index="4" type="array">
+                    <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.custom.label</numIndex>
+                    <numIndex index="1">custom</numIndex>
+                  </numIndex>
                 </items>
               </config>
             </TCEforms>

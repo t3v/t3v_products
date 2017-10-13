@@ -1,6 +1,6 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:if condition="{products}">
-    <v:tag name="ol" class="t3v-products-current-products-list t3v-products-current-products-list--{settings.layout} list" hideIfEmpty="true">
+    <v:tag name="ol" class="t3v-products-current-products-list list" hideIfEmpty="true">
       <f:for each="{products}" as="product" iteration="iteration">
         <f:render partial="ContentElements/CurrentProductsContentElement/CurrentProductsList/Entry" arguments="{product: product}" />
 
