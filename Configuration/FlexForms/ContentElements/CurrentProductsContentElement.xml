@@ -18,6 +18,7 @@
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.currentProductsContentElement.settings.products.label</label>
               <config type="array">
                 <type>select</type>
+                <renderType>selectMultipleSideBySide</renderType>
                 <internal_type>db</internal_type>
                 <foreign_table>tx_t3vproducts_domain_model_product</foreign_table>
                 <foreign_table_where>AND 1=1 ORDER BY name ASC</foreign_table_where>
@@ -42,6 +43,7 @@
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.currentProductsContentElement.settings.layout.label</label>
               <config type="array">
                 <type>select</type>
+                <renderType>selectSingle</renderType>
                 <size>1</size>
                 <minitems>1</minitems>
                 <maxitems>1</maxitems>
