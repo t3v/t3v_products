@@ -1,7 +1,7 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <v:tag name="div" class="t3v-products-current-product--{product.uid} t3v-products-current-product" hideIfEmpty="true">
     <v:tag name="div" class="t3v-products-current-product__header" hideIfEmpty="true">
-      <f:link.page pageUid="{product.pid}" class="t3v-products-current-product__thumbnail" title="{product.name}">
+      <f:link.page pageUid="{product.pid}" class="t3v-products-current-product__thumbnail" title="{product.label}">
         {product.name}
       </f:link.page>
     </v:tag>
@@ -9,7 +9,7 @@
     <v:tag name="div" class="t3v-products-current-product__main" hideIfEmpty="true">
       <v:tag name="div" class="t3v-products-current-product__meta" hideIfEmpty="true">
         <v:tag name="h3" class="t3v-products-current-product__name" hideIfEmpty="true">
-          <f:link.page pageUid="{product.pid}" title="{product.name}">
+          <f:link.page pageUid="{product.pid}" title="{product.label}">
             {product.name}
           </f:link.page>
         </v:tag>
@@ -24,21 +24,11 @@
       </f:if>
 
       <v:tag name="div" class="t3v-products-current-product__more" hideIfEmpty="true">
-        <f:if condition="{product.label}">
-          <f:then>
-            <f:link.page pageUid="{product.pid}" class="link--more link" title="{product.label}">
-              {product.label}
-            </f:link.page>
-          </f:then>
-
-          <f:else>
-            <f:link.page pageUid="{product.pid}"
-                         class="link--more link"
-                         title="{f:translate(key: 'contentElements.currentProductsContentElement.currentProduct.more.label', default: 'More')}">
-              {f:translate(key: 'contentElements.currentProductsContentElement.currentProduct.more.label', default: 'More')}
-            </f:link.page>
-          </f:else>
-        </f:if>
+        <f:link.page pageUid="{product.pid}"
+                     class="link--more link"
+                     title="{product.label}">
+          {f:translate(key: 'contentElements.currentProductsContentElement.currentProduct.more.label', default: 'More')}
+        </f:link.page>
       </v:tag>
     </v:tag>
   </v:tag>
