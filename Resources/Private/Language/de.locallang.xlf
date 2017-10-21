@@ -13,11 +13,6 @@
         <target>Produkt</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.productsContentElement.product.more.label">
-        <source>More</source>
-        <target>Mehr</target>
-      </trans-unit>
-
       <!-- === Content Elements === -->
 
       <!-- Curent Products Content Element -->
@@ -33,6 +28,18 @@
       </trans-unit>
 
       <trans-unit id="contentElements.currentProductsContentElement.noProductsFound.label">
+        <source>No products found.</source>
+        <target>Keine Produkte gefunden.</target>
+      </trans-unit>
+
+      <!-- Products Content Element -->
+
+      <trans-unit id="contentElements.productsContentElement.product.more.label">
+        <source>More</source>
+        <target>Mehr</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.noProductsFound.label">
         <source>No products found.</source>
         <target>Keine Produkte gefunden.</target>
       </trans-unit>

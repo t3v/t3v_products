@@ -20,7 +20,43 @@
         <source>Default</source>
       </trans-unit>
 
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.one.label">
+        <source>Layout 1</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.two.label">
+        <source>Layout 2</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.layout.three.label">
+        <source>Layout 3</source>
+      </trans-unit>
+
       <trans-unit id="contentElements.currentProductsContentElement.settings.layout.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.container.custom.label">
         <source>Custom</source>
       </trans-unit>
 
@@ -51,6 +87,30 @@
       </trans-unit>
 
       <trans-unit id="contentElements.productsContentElement.settings.layout.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.container.custom.label">
         <source>Custom</source>
       </trans-unit>
 

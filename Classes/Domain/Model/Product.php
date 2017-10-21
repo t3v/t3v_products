@@ -100,7 +100,7 @@ class Product extends AbstractModel {
   /**
    * Returns all thumbnails belonging to the product.
    *
-   * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\TYPO3\CMS\Extbase\Domain\Model\FileReference>
+   * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\TYPO3\CMS\Extbase\Domain\Model\FileReference> The product's thumbnails
    */
   public function getThumbnails() {
     return $this->thumbnails;
@@ -138,7 +138,7 @@ class Product extends AbstractModel {
   /**
    * Returns all images belonging to the product.
    *
-   * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\TYPO3\CMS\Extbase\Domain\Model\FileReference>
+   * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\TYPO3\CMS\Extbase\Domain\Model\FileReference> The product's images
    */
   public function getImages() {
     return $this->images;
@@ -179,7 +179,14 @@ class Product extends AbstractModel {
    * @return string The product's label
    */
   public function getLabel() {
-    return $this->label;
+    $name  = $this->name;
+    $label = $this->label;
+
+    if ($label) {
+      return $label;
+    } else {
+      return $name;
+    }
   }
 
   /**
