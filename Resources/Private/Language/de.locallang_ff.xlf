@@ -73,6 +73,56 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.title">
+        <source>Responsive</source>
+        <target>Responsive</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.title">
+        <source>Breakpoint</source>
+        <target>Breakpoint</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.minWidth.label">
+        <source>Minimum Width in px</source>
+        <target>Mindestbreite in px</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.imageHeight.label">
+        <source>Image Height in px</source>
+        <target>Bildhöhe in px</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.imageWidth.label">
+        <source>Image Width in px</source>
+        <target>Bildbreite in px</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.retinaDisplay.label">
+        <source>Retina Display</source>
+        <target>Hochauflösendes Display</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.retinaDisplay.none.label">
+        <source>Non-Retina</source>
+        <target>Nicht-Retina</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.retinaDisplay.2x.label">
+        <source>2X</source>
+        <target>2X</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.retinaDisplay.3x.label">
+        <source>3X</source>
+        <target>3X</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.currentProductsContentElement.settings.responsive.breakpoint.retinaDisplay.4x.label">
+        <source>4X</source>
+        <target>4X</target>
+      </trans-unit>
+
       <!-- Products Content Element -->
 
       <trans-unit id="contentElements.productsContentElement.settings.products.label">
@@ -138,6 +188,56 @@
       <trans-unit id="contentElements.productsContentElement.settings.container.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.title">
+        <source>Responsive</source>
+        <target>Responsive</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.title">
+        <source>Breakpoint</source>
+        <target>Breakpoint</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.minWidth.label">
+        <source>Minimum Width in px</source>
+        <target>Mindestbreite in px</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.imageHeight.label">
+        <source>Image Height in px</source>
+        <target>Bildhöhe in px</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.imageWidth.label">
+        <source>Image Width in px</source>
+        <target>Bildbreite in px</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.label">
+        <source>Retina Display</source>
+        <target>Hochauflösendes Display</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.none.label">
+        <source>Non-Retina</source>
+        <target>Nicht-Retina</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.2x.label">
+        <source>2X</source>
+        <target>2X</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.3x.label">
+        <source>3X</source>
+        <target>3X</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.4x.label">
+        <source>4X</source>
+        <target>4X</target>
       </trans-unit>
 
       <trans-unit id="contentElements.productsContentElement.settings.sortBy.label">

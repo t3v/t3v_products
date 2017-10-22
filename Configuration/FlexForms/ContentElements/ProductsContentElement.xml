@@ -114,6 +114,90 @@
             </TCEforms>
           </settings.container>
 
+          <settings.responsive>
+            <title>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.title</title>
+            <type>array</type>
+            <section>1</section>
+            <el>
+              <breakpoint>
+                <title>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.title</title>
+                <type>array</type>
+                <section>1</section>
+                <el>
+                  <minWidth>
+                    <TCEforms type="array">
+                      <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.minWidth.label</label>
+                      <config type="array">
+                        <type>input</type>
+                        <size>42</size>
+                        <max>255</max>
+                        <eval>int, trim, required</eval>
+                      </config>
+                    </TCEforms>
+                  </minWidth>
+
+                  <imageHeight>
+                    <TCEforms type="array">
+                      <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.imageHeight.label</label>
+                      <config type="array">
+                        <type>input</type>
+                        <size>42</size>
+                        <max>255</max>
+                        <eval>int, trim</eval>
+                      </config>
+                    </TCEforms>
+                  </imageHeight>
+
+                  <imageWidth>
+                    <TCEforms type="array">
+                      <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.imageWidth.label</label>
+                      <config type="array">
+                        <type>input</type>
+                        <size>42</size>
+                        <max>255</max>
+                        <eval>int, trim</eval>
+                      </config>
+                    </TCEforms>
+                  </imageWidth>
+
+                  <retinaDisplay>
+                    <TCEforms type="array">
+                      <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.label</label>
+                      <config type="array">
+                        <type>select</type>
+                        <renderType>selectSingle</renderType>
+                        <size>1</size>
+                        <minitems>1</minitems>
+                        <maxitems>1</maxitems>
+                        <items type="array">
+                          <numIndex index="0" type="array">
+                            <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.nonRetina.label</numIndex>
+                            <numIndex index="1"></numIndex>
+                          </numIndex>
+
+                          <numIndex index="1" type="array">
+                            <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.2x.label</numIndex>
+                            <numIndex index="1">2X</numIndex>
+                          </numIndex>
+
+                          <numIndex index="2" type="array">
+                            <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.3x.label</numIndex>
+                            <numIndex index="1">3X</numIndex>
+                          </numIndex>
+
+                          <numIndex index="3" type="array">
+                            <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.4x.label</numIndex>
+                            <numIndex index="1">4X</numIndex>
+                          </numIndex>
+                        </items>
+                      </config>
+                    </TCEforms>
+                  </retinaDisplay>
+                </el>
+              </breakpoint>
+            </el>
+          </settings.responsive>
+
           <settings.sortBy>
             <TCEforms type="array">
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.sortBy.label</label>
