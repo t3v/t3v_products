@@ -5,6 +5,10 @@
         <v:tag name="div" class="ce__container container--{settings.container} container" hideIfEmpty="true">
           <f:render partial="ContentElements/Shared/Header" arguments="{data: data}" />
 
+          <v:tag name="div" class="ce__abstract" hideIfEmpty="true">
+            <f:render section="Abstract" optional="true" />
+          </v:tag>
+
           <f:if condition="{products}">
             <f:then>
               <v:tag name="div" class="ce__main" hideIfEmpty="true">
@@ -27,6 +31,10 @@
 
       <f:else>
         <f:render partial="ContentElements/Shared/Header" arguments="{data: data}" />
+
+        <v:tag name="div" class="ce__abstract" hideIfEmpty="true">
+          <f:render section="Abstract" optional="true" />
+        </v:tag>
 
         <f:if condition="{products}">
           <f:then>

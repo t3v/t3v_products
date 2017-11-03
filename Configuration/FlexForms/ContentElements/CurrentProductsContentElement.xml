@@ -13,6 +13,17 @@
         </TCEforms>
         <type>array</type>
         <el>
+          <settings.abstract>
+            <TCEforms type="array">
+              <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.currentProductsContentElement.settings.abstract.label</label>
+              <config type="array">
+                <type>text</type>
+                <eval>trim</eval>
+              </config>
+              <defaultExtras>richtext:rte_transform[flag=rte_enabled|mode=ts_css]</defaultExtras>
+            </TCEforms>
+          </settings.abstract>
+
           <settings.products>
             <TCEforms type="array">
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.currentProductsContentElement.settings.products.label</label>

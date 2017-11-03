@@ -8,6 +8,10 @@
 
       <!-- Current Products Content Element -->
 
+      <trans-unit id="contentElements.currentProductsContentElement.settings.abstract.label">
+        <source>Abstract</source>
+      </trans-unit>
+
       <trans-unit id="contentElements.currentProductsContentElement.settings.products.label">
         <source>Products</source>
       </trans-unit>
