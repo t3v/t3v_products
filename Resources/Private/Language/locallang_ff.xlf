@@ -106,6 +106,10 @@
 
       <!-- Products Content Element -->
 
+      <trans-unit id="contentElements.productsContentElement.settings.abstract.label">
+        <source>Abstract</source>
+      </trans-unit>
+
       <trans-unit id="contentElements.productsContentElement.settings.products.label">
         <source>Products</source>
       </trans-unit>

@@ -130,6 +130,11 @@
 
       <!-- Products Content Element -->
 
+      <trans-unit id="contentElements.productsContentElement.settings.abstract.label">
+        <source>Abstract</source>
+        <target>Zusammenfassung</target>
+      </trans-unit>
+
       <trans-unit id="contentElements.productsContentElement.settings.products.label">
         <source>Products</source>
         <target>Produkte</target>

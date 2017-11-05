@@ -1,6 +1,34 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:layout name="ContentElements/ProductsContentElement" />
 
+  <f:section name="ContentElement">
+    <f:render partial="ContentElements/Shared/Header" arguments="{data: data}" />
+
+    <v:tag name="div" class="ce__abstract" hideIfEmpty="true">
+      <f:render section="Abstract" arguments="{settings: settings}" optional="true" />
+    </v:tag>
+
+    <f:if condition="{products}">
+      <f:then>
+        <v:tag name="div" class="ce__main" hideIfEmpty="true">
+          <f:render section="Main" arguments="{products: products, data: data, settings: settings}" />
+        </v:tag>
+      </f:then>
+
+      <f:else>
+        <v:tag name="div" class="ce__info--empty ce__info" hideIfEmpty="true">
+          {f:translate(key: 'contentElements.productsContentElement.noProductsFound.label', default: 'No products found.')}
+        </v:tag>
+      </f:else>
+    </f:if>
+  </f:section>
+
+  <f:section name="Abstract">
+    <f:if condition="{settings.abstract}">
+      <f:format.html>{settings.abstract}</f:format.html>
+    </f:if>
+  </f:section>
+
   <f:section name="Main">
     <f:render partial="ContentElements/ProductsContentElement/ProductsList" arguments="{products: products, data: data, settings: settings}" />
   </f:section>
