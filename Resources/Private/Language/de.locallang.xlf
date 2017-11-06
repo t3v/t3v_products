@@ -6,7 +6,7 @@
     <body>
       <!-- === Domain === -->
 
-      <!-- Product -->
+      <!-- Product Model -->
 
       <trans-unit id="domain.model.product">
         <source>Product</source>
