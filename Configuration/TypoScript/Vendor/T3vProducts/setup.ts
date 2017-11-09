@@ -1,14 +1,10 @@
-# === T3v Products Configuration ===
+# ------------------------------
+# | T3v Products Configuration |
+# ------------------------------
 
 plugin {
   tx_t3vproducts {
     persistence {
-      enableAutomaticCacheClearing = 1
-
-      updateReferenceIndex = 1
-
-      # storagePid = {$plugin.tx_t3vproducts.persistence.storagePid}
-
       classes {
         T3v\T3vProducts\Domain\Model\Product {
           mapping {
@@ -21,18 +17,30 @@ plugin {
           }
         }
       }
-    }
 
-    view {
-      layoutRootPath = {$plugin.tx_t3vproducts.view.layoutRootPath}
+      enableAutomaticCacheClearing = {$plugin.tx_t3vproducts.persistence.enableAutomaticCacheClearing}
 
-      templateRootPath = {$plugin.tx_t3vproducts.view.templateRootPath}
+      storagePid = {$plugin.tx_t3vproducts.persistence.storagePid}
 
-      partialRootPath = {$plugin.tx_t3vproducts.view.partialRootPath}
+      updateReferenceIndex = {$plugin.tx_t3vproducts.persistence.updateReferenceIndex}
     }
 
     settings {
       # ...
+    }
+
+    view {
+      layoutRootPaths {
+        0 = {$plugin.tx_t3vproducts.view.layoutRootPath}
+      }
+
+      templateRootPaths {
+        0 = {$plugin.tx_t3vproducts.view.templateRootPath}
+      }
+
+      partialRootPaths {
+        0 = {$plugin.tx_t3vproducts.view.partialRootPath}
+      }
     }
   }
 }
