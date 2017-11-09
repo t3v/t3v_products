@@ -29,9 +29,10 @@
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.products.label</label>
               <config type="array">
                 <type>select</type>
+                <renderType>selectMultipleSideBySide</renderType>
                 <internal_type>db</internal_type>
                 <foreign_table>tx_t3vproducts_domain_model_product</foreign_table>
-                <foreign_table_where>AND 1=1 ORDER BY name ASC</foreign_table_where>
+                <foreign_table_where>AND tx_t3vproducts_domain_model_product.hidden = 0 AND tx_t3vproducts_domain_model_product.deleted = 0 ORDER BY name ASC</foreign_table_where>
                 <minitems>1</minitems>
                 <maxitems>100</maxitems>
               </config>
