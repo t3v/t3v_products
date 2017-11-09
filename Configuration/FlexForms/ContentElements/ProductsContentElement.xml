@@ -54,9 +54,7 @@
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.label</label>
               <config type="array">
                 <type>select</type>
-                <size>1</size>
-                <minitems>1</minitems>
-                <maxitems>1</maxitems>
+                <renderType>selectSingle</renderType>
                 <items type="array">
                   <numIndex index="0" type="array">
                     <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.layout.default.label</numIndex>
@@ -83,6 +81,9 @@
                     <numIndex index="1">custom</numIndex>
                   </numIndex>
                 </items>
+                <size>1</size>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
               </config>
             </TCEforms>
           </settings.layout>
@@ -93,9 +94,6 @@
               <config type="array">
                 <type>select</type>
                 <renderType>selectSingle</renderType>
-                <size>1</size>
-                <minitems>1</minitems>
-                <maxitems>1</maxitems>
                 <items type="array">
                   <numIndex index="0" type="array">
                     <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.container.none.label</numIndex>
@@ -122,6 +120,9 @@
                     <numIndex index="1">custom</numIndex>
                   </numIndex>
                 </items>
+                <size>1</size>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
               </config>
             </TCEforms>
           </settings.container>
@@ -178,9 +179,6 @@
                       <config type="array">
                         <type>select</type>
                         <renderType>selectSingle</renderType>
-                        <size>1</size>
-                        <minitems>1</minitems>
-                        <maxitems>1</maxitems>
                         <items type="array">
                           <numIndex index="0" type="array">
                             <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.responsive.breakpoint.retinaDisplay.nonRetina.label</numIndex>
@@ -202,6 +200,9 @@
                             <numIndex index="1">4X</numIndex>
                           </numIndex>
                         </items>
+                        <size>1</size>
+                        <minitems>1</minitems>
+                        <maxitems>1</maxitems>
                       </config>
                     </TCEforms>
                   </retinaDisplay>
@@ -215,9 +216,7 @@
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.sortBy.label</label>
               <config type="array">
                 <type>select</type>
-                <size>1</size>
-                <minitems>1</minitems>
-                <maxitems>1</maxitems>
+                <renderType>selectSingle</renderType>
                 <items type="array">
                   <numIndex index="0" type="array">
                     <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.sortBy.none.label</numIndex>
@@ -229,6 +228,9 @@
                     <numIndex index="1">name</numIndex>
                   </numIndex>
                 </items>
+                <size>1</size>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
               </config>
             </TCEforms>
           </settings.sortBy>
@@ -238,9 +240,7 @@
               <label>LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.order.label</label>
               <config type="array">
                 <type>select</type>
-                <size>1</size>
-                <minitems>1</minitems>
-                <maxitems>1</maxitems>
+                <renderType>selectSingle</renderType>
                 <items type="array">
                   <numIndex index="0" type="array">
                     <numIndex index="0">LLL:EXT:t3v_products/Resources/Private/Language/locallang_ff.xlf:contentElements.productsContentElement.settings.order.ascendingOrder.label</numIndex>
@@ -252,6 +252,9 @@
                     <numIndex index="1">DESC</numIndex>
                   </numIndex>
                 </items>
+                <size>1</size>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
               </config>
             </TCEforms>
           </settings.order>
