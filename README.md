@@ -70,7 +70,7 @@ Credits
 
 ### Icons
 
-* [Barcode free ico]
+* [Barcode free icon]
 
 Icons made by [Smashicons] from [Flaticon] is licensed by [CC 3.0 BY].
 
