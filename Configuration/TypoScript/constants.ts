@@ -5,6 +5,18 @@
 t3v {
   products {
     config {
+      contentElements {
+        productsContentElement {
+          # cat=t3v/products/config/contentElements/productsContentElement; type=string; label=The Content Element's container
+          container =
+        }
+
+        currentProductsContentElement {
+          # cat=t3v/products/config/contentElements/currentProductsContentElement; type=string; label=The Content Element's container
+          container =
+        }
+      }
+
       pages {
         products {
           # cat=t3v/products/config/pages/products; type=int+; label=The UID of the products page
