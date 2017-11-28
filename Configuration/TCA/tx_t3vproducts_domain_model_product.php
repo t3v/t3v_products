@@ -198,7 +198,7 @@ return [
         ],
         'default' => 0
       ],
-      'exclude' => 1
+      'exclude' => true
     ],
 
     'l10n_parent' => [
@@ -213,7 +213,7 @@ return [
         'foreign_table_where' => 'AND tx_t3vproducts_domain_model_product.pid=###CURRENT_PID### AND tx_t3vproducts_domain_model_product.sys_language_uid IN (-1,0)'
       ],
       'displayCond' => 'FIELD:sys_language_uid:>:0',
-      'exclude' => 1
+      'exclude' => true
     ],
 
     'l10n_diffsource' => [
