@@ -45,7 +45,11 @@ class CurrentProductsContentElementController extends ContentElementController {
     $productsUids = GeneralUtility::intExplode(',', $settings['products'], true);
 
     foreach($productsUids as $uid) {
-      $products[] = $this->productRepository->findByUid($uid);
+      $product = $this->productRepository->findByUid($uid);
+
+      if ($product) {
+        $products[] = $product;
+      }
     }
 
     return $products;
