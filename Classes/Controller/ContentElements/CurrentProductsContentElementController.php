@@ -28,7 +28,19 @@ class CurrentProductsContentElementController extends ContentElementController {
    */
   public function indexAction() {
     $settings = $this->settings;
+    $products = $this->getProductsFromSettings($settings);
 
+    $this->view->assign('settings', $settings);
+    $this->view->assign('products', $products);
+  }
+
+  /**
+   * Helper function to get products from settings.
+   *
+   * @param array $settings The settings
+   * @return array The products
+   */
+  protected function getProductsFromSettings($settings) {
     $products     = [];
     $productsUids = GeneralUtility::intExplode(',', $settings['products'], true);
 
@@ -36,7 +48,6 @@ class CurrentProductsContentElementController extends ContentElementController {
       $products[] = $this->productRepository->findByUid($uid);
     }
 
-    $this->view->assign('settings', $settings);
-    $this->view->assign('products', $products);
+    return $products;
   }
 }

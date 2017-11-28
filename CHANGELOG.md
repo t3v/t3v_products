@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Improved `Current Products` and `Products` Content Element Controller
 * Updated TypoScript
 * Fixed functional tests
 * Updated AppVeyor configuration
