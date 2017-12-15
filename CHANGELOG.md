@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Refactored `AbstractModel`
+* Cleaned up
 
 1.1.0
 -----
