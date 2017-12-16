@@ -55,6 +55,8 @@ class Product extends AbstractModel {
    * Constructs a new product.
    */
   public function __construct() {
+    parent::__construct();
+
     $this->thumbnails = new ObjectStorage();
     $this->images     = new ObjectStorage();
   }
