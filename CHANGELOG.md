@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Update partials
+* Cleaned up
 
 1.4.0
 -----
